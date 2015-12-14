@@ -54,9 +54,9 @@
                     n++;
                 }
                 if (Math.abs(ayy.r - 1) < 0.001) {
-                    setFillStyle(ctx, 0, 198, 255, 1-n/20);
+                    setFillStyle(ctx, 0, 198, 255, n/20);
                 } else if(Math.abs(ayy.r + 0.5) < 0.001) {
-                    setFillStyle(ctx, 0, 0, 0, 1-n/20);
+                    setFillStyle(ctx, 0, 0, 0, n/20);
                 } else {
                     setFillStyle(ctx, 255, 255, 255, 1);
                 }
